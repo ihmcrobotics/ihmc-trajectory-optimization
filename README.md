@@ -2,4 +2,4 @@
 ![buildstatus](https://github.com/ihmcrobotics/ihmc-trajectory-optimization/actions/workflows/gradle-test.yml/badge.svg)
 ![buildstatus](https://github.com/ihmcrobotics/ihmc-trajectory-optimization/actions/workflows/gradle-main-test.yml/badge.svg)
 
-Current version is 0.14.1
+Current version is 0.14.2
