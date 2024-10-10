@@ -1,0 +1,16 @@
+name: Gradle test develop
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  pull_request:
+
+permissions:
+  checks: write
+  contents: read
+
+jobs:
+  gradle-test:
+    uses: ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main
